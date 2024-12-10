@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/submit", (req, res) => {
-  res.send(`<h1>Your nick name is:</h1> <h2>${nickName}</h2>`);
+  res.send(`<h1>Your nick name is:</h1> <h2>${nickName}.</h2>`);
 });
 
 app.listen(port, () => {
